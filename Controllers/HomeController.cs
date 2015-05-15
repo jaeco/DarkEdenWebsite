@@ -14,7 +14,5 @@ namespace DarkEdenWebsite.Controllers
             return View();
         }
 
-        //Sup
-
     }
 }
