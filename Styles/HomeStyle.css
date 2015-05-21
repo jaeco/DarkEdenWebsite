@@ -1,8 +1,12 @@
-﻿.Content{
+﻿
+
+.Content{
     margin-left: 400px;
     margin-right: 400px;
+    background-image:url("/Images/newspaper_background-793x998.jpg");
     background-color:#3f3f3E;
-    height: 1000px;
+    height: 700px;
+    background-repeat: no-repeat;
 }
 
 #LeftContent{
@@ -14,17 +18,77 @@ padding-left: 10px;
 padding-top: 10px;
 }
 
-#RightContent{
-width: 250px;
-float: left;
-margin-left: 10px;
-text-align: left;
-overflow: hidden;
-padding-top: 10px;
+#LeftContent img{
+    padding-bottom:50px;
 }
 
+#RightContent{
+position:relative;
+width: 310px;
+left:43px;
+overflow: hidden;
+padding-top: 10px;
+background-image:url("/Images/Darkeden.jpg");
+}
+
+#RightContent #server{
+    width: 310px;
+    height:390px;
+
+}
+
+#DownloadClient{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
 #DownloadClient2{
     position: relative;
     bottom: 5px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#market{
+    height:280px;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width:1102px;
+}
+
+#SlideShow{
+    position:relative;
+    bottom:3px;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:1102px;
+}
+
+#login{
+    color:#fff;
+    padding-top: 20px;
+}
+
+#login h1{
+    text-align:center;
+}
+
+#login input{
+        display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#login button{
+    background-color:grey;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border:none;
+
+    
 }
 

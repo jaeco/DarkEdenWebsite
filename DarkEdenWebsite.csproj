@@ -85,14 +85,24 @@
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\0801_eb_a0_88_eb_b2_a8_eb_8b_ac_ec_84_b13_720.png" />
     <Content Include="Images\darkeden-logo.jpg" />
+    <Content Include="Images\Darkeden-Recovered.png" />
     <Content Include="Images\Darkeden.jpg" />
     <Content Include="Images\Darkeden1.jpg" />
     <Content Include="Images\DarkEdenBanner.png" />
     <Content Include="Images\game_start_bg.jpg" />
+    <Content Include="Images\game_start_menu.jpg" />
+    <Content Include="Images\marketdiscount_360.png" />
+    <Content Include="Images\newsfiller_360.png" />
+    <Content Include="Images\newspaper_background-793x998.jpg" />
+    <Content Include="Images\slider-banner-darkeden.jpg" />
     <Content Include="Images\update27_548x200.jpg" />
+    <Content Include="Images\updatefiller_360.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\Metamorphous-Regular.ttf" />
+    <Content Include="fonts\TYPEK___.TTF" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -130,6 +140,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
