@@ -1,0 +1,30 @@
+﻿.Content{
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color:#3f3f3E;
+    height: 1000px;
+}
+
+#LeftContent{
+    width: 740px;
+float: left;
+text-align: left;
+overflow: hidden;
+padding-left: 10px;
+padding-top: 10px;
+}
+
+#RightContent{
+width: 250px;
+float: left;
+margin-left: 10px;
+text-align: left;
+overflow: hidden;
+padding-top: 10px;
+}
+
+#DownloadClient2{
+    position: relative;
+    bottom: 5px;
+}
+
