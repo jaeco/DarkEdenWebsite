@@ -22,3 +22,9 @@ C:\Users\thawkins\Documents\GitHub\DarkEdenWebsite\bin\DarkEdenWebsite.pdb
 C:\Users\thawkins\Documents\GitHub\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.csprojResolveAssemblyReference.cache
 C:\Users\thawkins\Documents\GitHub\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.dll
 C:\Users\thawkins\Documents\GitHub\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.pdb
+C:\Users\Caleb Bain\Documents\Visual Studio 2013\Projects\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.csprojResolveAssemblyReference.cache
+C:\Users\Caleb Bain\Documents\Visual Studio 2013\Projects\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.dll
+C:\Users\Caleb Bain\Documents\Visual Studio 2013\Projects\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.pdb
+C:\Users\Caleb Bain\Documents\Visual Studio 2013\Projects\DarkEdenWebsite\bin\DarkEdenWebsite.dll.config
+C:\Users\Caleb Bain\Documents\Visual Studio 2013\Projects\DarkEdenWebsite\bin\DarkEdenWebsite.dll
+C:\Users\Caleb Bain\Documents\Visual Studio 2013\Projects\DarkEdenWebsite\bin\DarkEdenWebsite.pdb

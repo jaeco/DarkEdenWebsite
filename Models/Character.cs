@@ -31,9 +31,10 @@ namespace DarkEdenWebsite.Models
             get { return _Inventory; }
             set { _Inventory = value; }
         }
-        public MarketItem Inventory
+
+        public void AddToInventory(MarketItem item)
         {
-            set { _Inventory.Add(value); }
+            _Inventory.Add(item);
         }
 
         public override int GetHashCode()
