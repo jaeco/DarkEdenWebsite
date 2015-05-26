@@ -3,7 +3,7 @@
 .Content{
     margin-left: 400px;
     margin-right: 400px;
-    background-image:url("/Images/newspaper_background-793x998.jpg");
+    background-image:url("~/Images/newspaper_background-793x998.jpg");
     background-color:#3f3f3E;
     height: 700px;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ width: 310px;
 left:43px;
 overflow: hidden;
 padding-top: 10px;
-background-image:url("/Images/Darkeden.jpg");
+background-image:url("~/Images/Darkeden.jpg");
 }
 
 #RightContent #server{

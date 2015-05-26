@@ -47,3 +47,5 @@ D:\James Corkran\Documents\GitHub\DarkEdenWebsite\bin\System.Web.Mvc.xml
 D:\James Corkran\Documents\GitHub\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.csprojResolveAssemblyReference.cache
 D:\James Corkran\Documents\GitHub\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.dll
 D:\James Corkran\Documents\GitHub\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.pdb
+C:\Users\thawkins\Documents\GitHub\DarkEdenWebsite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\thawkins\Documents\GitHub\DarkEdenWebsite\bin\Microsoft.Web.Infrastructure.xml
