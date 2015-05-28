@@ -14,6 +14,11 @@ namespace DarkEdenWebsite.Controllers
             return View();
         }
 
+        public ActionResult Market()
+        {
+            return View();
+        }
+
 
     }
 }

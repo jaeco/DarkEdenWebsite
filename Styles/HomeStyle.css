@@ -92,3 +92,43 @@ background-image:url("../Images/Darkeden.jpg");
     
 }
 
+.holder img {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+
+.carousel {
+  width: 1100px;
+  height: 180px;
+  overflow: hidden;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 2px solid #999;
+  box-shadow: 0 0 4px #000;
+  margin: 0 auto;
+  margin-left:400px;
+  margin-right:400px;
+  background-color: gray;
+  
+}
+
+.holder {
+  width: 10000px;
+  animation: carousel 25s linear infinite;
+}
+
+@keyframes carousel {
+  0% {
+    margin-left: 0;
+  }
+  
+  50% {
+    margin-left: -500px;
+  }
+  
+  100% {
+    margin-left: 0;
+  }
+}
+

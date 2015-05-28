@@ -60,6 +60,10 @@ nav a{
     right:30px;
 }
 
+nav a:link{
+    text-decoration:none;
+}
+
 #log{
     position:relative;
     left: 100px;
