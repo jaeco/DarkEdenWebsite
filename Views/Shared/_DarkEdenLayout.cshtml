@@ -3,20 +3,19 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="~/Styles/LayoutStyle.css"/>
-    <link rel="stylesheet" type="text/css" href="~/Styles/HomeStyle.css" />
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 </head>
 <header>
-    <img src="/Images/DarkEdenBanner.png"/>
+    <a href="~/Home/Index"><img src="~/Images/DarkEdenBanner.png" /></a>
 </header>
 <nav>
-    <a>Home</a> 
-    <a>Market</a> 
-    <a>News&Events</a> 
-    <a>CPanel</a> 
-    <a>Info</a> 
-    <a id="log">Login</a>
+    <a href="~/Home/Index">Home</a> 
+    <a href="~/Home/Market">Market</a> 
+    <a href="">News&Events</a> 
+    <a href="">CPanel</a> 
+    <a href="">Info</a> 
+    <a href=""id="log">Login</a>
 </nav>
 <body>
     @RenderBody()

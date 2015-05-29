@@ -21,11 +21,11 @@ time, mark, audio, video {
 
 @font-face{
     font-family:Header;
-    src:url(/fonts/Metamorphous-Regular.ttf);
+    src:url(../fonts/Metamorphous-Regular.ttf);
 }
 
 html{
-    background-image:url("/Images/Darkeden-Recovered.png");
+    background-image:url("../Images/Darkeden-Recovered.png");
     background-color: #000;
     min-width: 960px;
     background-repeat: no-repeat;
@@ -58,6 +58,10 @@ nav a{
     min-width: 30%;
     font-family: Header;
     right:30px;
+}
+
+nav a:link{
+    text-decoration:none;
 }
 
 #log{
