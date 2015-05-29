@@ -28,6 +28,8 @@ C:\Users\Caleb Bain\Documents\Visual Studio 2013\Projects\DarkEdenWebsite\obj\De
 C:\Users\Caleb Bain\Documents\Visual Studio 2013\Projects\DarkEdenWebsite\bin\DarkEdenWebsite.dll.config
 C:\Users\Caleb Bain\Documents\Visual Studio 2013\Projects\DarkEdenWebsite\bin\DarkEdenWebsite.dll
 C:\Users\Caleb Bain\Documents\Visual Studio 2013\Projects\DarkEdenWebsite\bin\DarkEdenWebsite.pdb
+C:\Users\thawkins\Documents\GitHub\DarkEdenWebsite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\thawkins\Documents\GitHub\DarkEdenWebsite\bin\Microsoft.Web.Infrastructure.xml
 D:\James Corkran\Documents\GitHub\DarkEdenWebsite\bin\DarkEdenWebsite.dll.config
 D:\James Corkran\Documents\GitHub\DarkEdenWebsite\bin\DarkEdenWebsite.dll
 D:\James Corkran\Documents\GitHub\DarkEdenWebsite\bin\DarkEdenWebsite.pdb
@@ -44,8 +46,5 @@ D:\James Corkran\Documents\GitHub\DarkEdenWebsite\bin\System.Web.Webpages.Deploy
 D:\James Corkran\Documents\GitHub\DarkEdenWebsite\bin\System.Web.Webpages.Razor.xml
 D:\James Corkran\Documents\GitHub\DarkEdenWebsite\bin\System.Web.Helpers.xml
 D:\James Corkran\Documents\GitHub\DarkEdenWebsite\bin\System.Web.Mvc.xml
-D:\James Corkran\Documents\GitHub\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.csprojResolveAssemblyReference.cache
 D:\James Corkran\Documents\GitHub\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.dll
 D:\James Corkran\Documents\GitHub\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.pdb
-C:\Users\thawkins\Documents\GitHub\DarkEdenWebsite\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\thawkins\Documents\GitHub\DarkEdenWebsite\bin\Microsoft.Web.Infrastructure.xml
