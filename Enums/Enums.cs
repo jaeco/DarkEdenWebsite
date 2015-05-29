@@ -27,6 +27,6 @@ namespace DarkEdenWebsite.Enums
 
     public enum Race
     {
-        Vampire, Hunter, Ouster
+        Vampire, Hunter, Ouster, Common
     }
 }

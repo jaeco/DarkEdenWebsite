@@ -8,17 +8,6 @@ namespace DarkEdenWebsite.Models
 {
     public class Character
     {
-        public Character(int CharacterId, User Owner, string Name, Race Race, int Level, Gender Gender, List<MarketItem> Inventory = null)
-        {
-            this.CharacterId = CharacterId;
-            this.Gender = Gender;
-            this._Inventory = Inventory == null ? new List<MarketItem>() : Inventory;
-            this.Level = Level;
-            this.Name = Name;
-            this.Owner = Owner;
-            this.Race = Race;
-        }
-
         public int CharacterId { get; set; }
         public User Owner { get; set; }
         public string Name { get; set; }
@@ -31,7 +20,6 @@ namespace DarkEdenWebsite.Models
             get { return _Inventory; }
             set { _Inventory = value; }
         }
-
         public void AddToInventory(MarketItem item)
         {
             _Inventory.Add(item);

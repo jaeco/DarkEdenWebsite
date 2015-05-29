@@ -8,23 +8,6 @@ namespace DarkEdenWebsite.Models
 {
     public class MarketItem
     {
-        public MarketItem(int Id, string Name, float Discount, float Price,
-            string Description, byte[] Image, Race Race, Gender Gender,
-            DateTime AddedToMarket, DateTime DateBought, TimeSpan TimeLimit)
-        {
-            this.AddedToMarket = AddedToMarket;
-            this.DateBought = DateBought;
-            this.Description = Description;
-            this.Discount = Discount;
-            this.Gender = Gender;
-            this.Id = Id;
-            this.Image = Image;
-            this.Name = Name;
-            this.Price = Price;
-            this.Race = Race;
-            this.TimeLimit = TimeLimit;
-        }
-        
         public int Id { get; set; }
         public string Name { get; set; }
         public float Discount { get; set; }
@@ -34,7 +17,7 @@ namespace DarkEdenWebsite.Models
             get { return _Price - Discount; }
             set { _Price = value; }
         }
-        
+        public int Quantity { get; set; }
         public string Description { get; set; }
         public byte[] Image { get; set; }
         public Race Race { get; set; }
@@ -66,9 +49,22 @@ namespace DarkEdenWebsite.Models
 
         public override bool Equals(object obj)
         {
-            if (ReferenceEquals(null, obj)) return false;
-            if (ReferenceEquals(this, obj)) return true;
-            return false;
+            obj.GetType();
+            if (obj.GetType() != this.GetType())
+            {
+                return false;
+            }
+
+            MarketItem temp = (MarketItem)obj;
+
+            if (temp._Price != this._Price||temp.DateBought != this.DateBought||temp.Description != this.Description||temp.Discount != this.Discount||
+                temp.Gender != this.Gender||temp.Id != this.Id||temp.Image != this.Image||temp.Name != this.Name||temp.AddedToMarket != this.AddedToMarket||
+                temp.Race != this.Race||temp.TimeLimit != this.TimeLimit)
+            {
+                return false;
+            }
+
+            return true;
         }
 
         public override string ToString()

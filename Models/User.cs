@@ -8,27 +8,6 @@ namespace DarkEdenWebsite.Models
 {
     public class User
     {
-        public User(int Id, string Name, Gender Gender, string MacAddress, DateTime BirthDate, 
-            string Email, string Phone, int ZipCode, string Address, string UserName, string Password, 
-            int Pin, string LoginIP, DateTime StartingDate, AccountPriority AccountPriority, 
-            Membership MembershipType)
-        {
-            this.Id = Id;
-            this.Name = Name;
-            this.Gender = Gender;
-            this.BirthDate = BirthDate;
-            this.Email = Email;
-            this.LoginIP = LoginIP;
-            this.MacAddress = MacAddress;
-            this.MembershipType = MembershipType;
-            this.Password = Password;
-            this.Phone = Phone;
-            this.Pin = Pin;
-            this.StartingDate = StartingDate;
-            this.UserName = UserName;
-            this.ZipCode = ZipCode;
-        }
-
         public int Id { get; set; }
         public string Name { get; set; }
         public Gender Gender { get; set; }
