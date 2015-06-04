@@ -6,25 +6,25 @@ using System.Web.Mvc;
 
 namespace DarkEdenWebsite.Controllers
 {
-    public class HomeController : Controller
+    public class MarketController : Controller
     {
         // GET: Home
-        public ActionResult Index()
+        public ActionResult Slayer()
         {
             return View();
         }
 
-        public ActionResult Market()
+        public ActionResult Vampire()
         {
             return View();
         }
 
-        public ActionResult NewsEvents()
+        public ActionResult Ouster()
         {
             return View();
         }
 
-        public ActionResult Info()
+        public ActionResult Common()
         {
             return View();
         }

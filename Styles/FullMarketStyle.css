@@ -71,8 +71,30 @@ nav a:link{
     left: 100px;
 }
 
+.content img{
+    margin-left:400px;
+    height: 400px;
+    z-index:3;
+}
+
+.checkout{
+    position:fixed;
+    top: 250px;
+    left:1600px;
+    background-color: #fff;
+    width: 200px;
+    height: 250px;
+    float: right;
+}
 
 footer{
     text-align:center;
     color: #F4F3F2;
+}
+
+@media screen and (max-width: 1000px) {
+ .content img{
+     margin: 0 auto !important;
+    float: none !important;
+ }
 }
