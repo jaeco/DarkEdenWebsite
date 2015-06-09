@@ -1,4 +1,4 @@
-﻿
+﻿@model DarkEdenWebsite.Models.Update
 @{
     Layout = "~/Views/Shared/_DarkEdenLayout.cshtml";
     ViewBag.Title = "Index";
@@ -8,16 +8,9 @@
 <div class="Content">
     <div id="LeftContent">
         <div class="News">
-            <img src="~/Images/newsfiller_360.png"/>
-            <img src="~/Images/updatefiller_360.png"/>
-            <img src="~/Images/newsfiller_360.png" />
-            <img src="~/Images/updatefiller_360.png" />
-            <img src="~/Images/newsfiller_360.png" />
-            <img src="~/Images/updatefiller_360.png" />
-            <img src="~/Images/newsfiller_360.png" />
-            <img src="~/Images/updatefiller_360.png" />
-            <img src="~/Images/newsfiller_360.png" />
-            <img src="~/Images/updatefiller_360.png" />
+            @foreach(var item in Model.TheListOfUpdates ){
+                    @Html.Partial("_NewsPartial", item)
+            }
         </div>
     </div>
     <div id="RightContent">
