@@ -48,3 +48,11 @@ D:\James Corkran\Documents\GitHub\DarkEdenWebsite\bin\System.Web.Helpers.xml
 D:\James Corkran\Documents\GitHub\DarkEdenWebsite\bin\System.Web.Mvc.xml
 D:\James Corkran\Documents\GitHub\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.dll
 D:\James Corkran\Documents\GitHub\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.pdb
+C:\Users\dbrown\Documents\GitHub\DarkEdenWebsite\bin\DarkEdenWebsite.dll.config
+C:\Users\dbrown\Documents\GitHub\DarkEdenWebsite\bin\DarkEdenWebsite.dll
+C:\Users\dbrown\Documents\GitHub\DarkEdenWebsite\bin\DarkEdenWebsite.pdb
+C:\Users\dbrown\Documents\GitHub\DarkEdenWebsite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dbrown\Documents\GitHub\DarkEdenWebsite\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\dbrown\Documents\GitHub\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.csprojResolveAssemblyReference.cache
+C:\Users\dbrown\Documents\GitHub\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.dll
+C:\Users\dbrown\Documents\GitHub\DarkEdenWebsite\obj\Debug\DarkEdenWebsite.pdb

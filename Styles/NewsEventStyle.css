@@ -21,9 +21,11 @@
     -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
     -moz-column-gap: 30px; /* Firefox */
     column-gap: 30px;
-     -webkit-column-rule: 1px solid #3F3F3E; /* Chrome, Safari, Opera */
+    -webkit-column-rule: 1px solid #3F3F3E; /* Chrome, Safari, Opera */
     -moz-column-rule: 1px solid #3F3F3E; /* Firefox */
     column-rule: 1px solid #3F3F3E;
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
 }
 
 h1 {
@@ -42,8 +44,8 @@ h1 {
 }
 
 #News {
-
     margin: 0 auto;
+    padding: 10px;
 }
 
     #News h2 {
@@ -52,16 +54,17 @@ h1 {
         color: #85100F;
         padding-top: 5px;
     }
+
     #News h3 {
         font-family: Metamorphous-Regular;
         font-size: 15pt;
+        color: #44453F;
     }
 
 
 #Events {
-
     margin: 0 auto;
-    
+    padding: 10px;
 }
 
     #Events h2 {
@@ -70,12 +73,16 @@ h1 {
         color: #85100F;
         padding-top: 5px;
     }
+
     #Events h3 {
         font-family: Metamorphous-Regular;
         font-size: 15pt;
+        color: #44453F;
     }
 
 
 p {
     text-align: left;
+    color: black;
+    text-wrap:normal;
 }
