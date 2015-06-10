@@ -1243,6 +1243,8 @@
     <Compile Include="Models\Character.cs" />
     <Compile Include="Models\ExtentionMethods.cs" />
     <Compile Include="Models\MarketItem.cs" />
+    <Compile Include="Models\Update.cs" />
+    <Compile Include="Models\UpdateType.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -1257,6 +1259,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Shared\_MarketLayout.cshtml" />
+    <Content Include="Views\Shared\_NewsPartial.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
